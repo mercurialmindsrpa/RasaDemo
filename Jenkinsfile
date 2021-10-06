@@ -9,6 +9,7 @@ pipeline {
     stage('RasaDemoSCM pull') {
       steps {
         echo 'Rasa Train'
+        bat(returnStatus: true, returnStdout: true, script: 'cd rasa')
       }
     }
 
