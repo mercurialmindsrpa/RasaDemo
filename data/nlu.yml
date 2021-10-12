@@ -19,7 +19,7 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - hello my friend1
+    - hello my friend123
     - good afternoon
     - cu
     - good by
